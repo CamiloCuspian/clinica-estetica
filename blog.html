@@ -1,0 +1,36 @@
+---
+layout: informacional
+title: Lorem Ipsum Dolor Sit Amet
+description: Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+h1: "Dolor Sit Amet <span class='resaltar'>Consectetur Adipiscing Elit</span> Lorem Ipsum"
+hero: img/clinica-estetica.avif
+jpg: img/clinica-estetica.avif
+alt: Lorem ipsum dolor sit
+---
+<main class="entradas">
+  <h2>✨ Lorem <span class="resaltar">ipsum dolor</span> sit amet consectetur adipiscing elit. <b>Sed do eiusmod tempor incididunt ut labore</b></h2>
+  <p>Ut enim ad minim veniam:</p>
+  <ul>
+    <li><strong>Lorem Ipsum</strong></li>
+    <li><strong>Dolor Sit</strong></li>
+    <li><strong>Amet Elit</strong></li>
+    <li><strong>Consectetur</strong></li>
+    <li>Adipiscing elit sed do eiusmod!</li>
+  </ul>
+  <h3>Lorem ipsum dolor sit amet ⏬</h3>
+  <div class="home_gallery">
+    {% for post in site.posts %}
+    {% if post.category == "#raticogurcoff" %}
+    <article>
+      <img src="img/clinica-estetica.avif" alt="Lorem ipsum dolor">
+      <div>
+        <h4>Lorem ipsum dolor sit amet</h4>
+        <a href="{{post.url|relative_url}}" title="Lorem ipsum">Dolor Sit</a>
+      </div>
+    </article>
+    {% endif %}
+    {% endfor %}
+    <div class="add">
+    </div>
+  </div>
+</main>

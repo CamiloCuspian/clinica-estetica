@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+    <lastBuildDate>Tue, 31 Dec 2024 20:33:04 -0500</lastBuildDate>
+    <language>es-CO</language>
+    <generator>Jekyll v4.3.4</generator>
+    
+    
+      <item>
+        <title>Lorem Ipsum Dolor Sit Amet</title>
+        <description>
+          <![CDATA[
+            
+            <img src="http://localhost:4000/img/clinica-estetica.avif" alt="Lorem ipsum dolor sit" />
+            
+            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/blog</link>
+        <guid isPermaLink="true">http://localhost:4000/blog</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>Lorem Ipsum Dolor Sit Amet</title>
+        <description>
+          <![CDATA[
+            
+            <img src="http://localhost:4000/img/clinica-estetica.avif" alt="Lorem ipsum dolor sit" />
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/catalogo</link>
+        <guid isPermaLink="true">http://localhost:4000/catalogo</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+          <![CDATA[
+            
+            
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/feed.xml</link>
+        <guid isPermaLink="true">http://localhost:4000/feed.xml</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>Lorem Ipsum Dolor Sit Amet</title>
+        <description>
+          <![CDATA[
+            
+            <img src="http://localhost:4000/img/hero-home-clinica-estetica.avif" alt="Lorem Ipsum Dolor Sit" />
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/</link>
+        <guid isPermaLink="true">http://localhost:4000/</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>Lorem Ipsum Dolor Sit</title>
+        <description>
+          <![CDATA[
+            
+            <img src="http://localhost:4000/img/clinica-estetica.avif" alt="Lorem ipsum dolor sit" />
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/promociones</link>
+        <guid isPermaLink="true">http://localhost:4000/promociones</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>Lorem Ipsum Dolor Sit Amet</title>
+        <description>
+          <![CDATA[
+            
+            <img src="http://localhost:4000/img/clinica-estetica.avif" alt="Lorem ipsum dolor sit" />
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/regalos</link>
+        <guid isPermaLink="true">http://localhost:4000/regalos</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+          <![CDATA[
+            
+            
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/search.json</link>
+        <guid isPermaLink="true">http://localhost:4000/search.json</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+          <![CDATA[
+            
+            
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/sitemap.xml</link>
+        <guid isPermaLink="true">http://localhost:4000/sitemap.xml</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>
+          <![CDATA[
+            
+            
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/css/style.css</link>
+        <guid isPermaLink="true">http://localhost:4000/css/style.css</guid>
+        
+        
+        
+      </item>
+    
+      <item>
+        <title>Lorem Ipsum Dolor Sit Amet</title>
+        <description>
+          <![CDATA[
+            
+            <img src="http://localhost:4000/img/clinica-estetica.avif" alt="Lorem ipsum dolor sit" />
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+          ]]>
+        </description>
+        <pubDate>Tue, 31 Dec 2024 20:33:04 -0500</pubDate>
+        <link>http://localhost:4000/visitas</link>
+        <guid isPermaLink="true">http://localhost:4000/visitas</guid>
+        
+        
+        
+      </item>
+    
+  </channel>
+</rss>

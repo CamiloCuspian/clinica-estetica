@@ -1,0 +1,32 @@
+---
+layout: transaccional
+title: Lorem Ipsum Dolor Sit Amet
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore."
+h1: Consectetur Adipiscing Elit Sed Do
+hero: img/clinica-estetica.avif
+alt: Lorem ipsum dolor sit
+intro: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+---
+<section class="intro_secciones flow">
+  <small>Lorem Ipsum</small>
+  <h2>Dolor Sit Amet Consectetur</h2>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</section> 
+<ul class="tarjeticas_articulos">
+  {% for regalo in site.data.regalos %}
+  <li>
+    <img src="img/clinica-estetica.avif" alt="Lorem Ipsum" loading="lazy" width="148" height="148">
+    <h3>Lorem Ipsum</h3>
+    <p>Dolor sit amet</p>
+    <a href="{{regalo.url}}" rel="nofollow noopener" class="boton boton_2">Dolor Sit</a>
+  </li>
+  {% endfor %}
+</ul>
+
+{% include cta.html 
+  title="Lorem Ipsum Dolor Sit?"
+  description="Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  description2="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  image1="img/clinica-estetica.avif"
+  image2="img/clinica-estetica.avif"
+%}

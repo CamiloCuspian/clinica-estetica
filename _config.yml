@@ -1,0 +1,24 @@
+baseurl: ''
+url: ''
+name: ''
+author: 
+instagram: 
+facebook: 
+maps: 
+telefono:
+
+markdown: kramdown
+
+permalink: :slug
+
+keep_files: [/img]
+
+compress_html:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
+    envs: []
+    blanklines: false
+    profile: false
+    startings: []

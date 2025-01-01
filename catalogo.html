@@ -1,0 +1,46 @@
+---
+layout: transaccional
+title: Lorem Ipsum Dolor Sit Amet
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+h1: Consectetur Adipiscing Elit
+hero: img/clinica-estetica.avif
+alt: Lorem ipsum dolor sit
+intro: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+---
+<section class="intro_secciones bg_secundario flow">
+  <small>Lorem Ipsum</small>
+  <h2>Dolor Sit Amet Consectetur</h2>
+  <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+  <h3>Ut enim ad minim veniam quis nostrud</h3>
+  <div class="blog-tags">
+    <button data-name="all" class="active">Omnia</button>
+    {% for categoria in site.data.catalogo %}
+    <button data-name="{{ categoria[0] }}">{{ categoria[0] }}</button>
+    {% endfor %}
+  </div>
+</section>
+<section class="posts">
+  {% for categoria in site.data.catalogo %}
+  <div class="post" data-name="{{ categoria[0] }}">
+    <h2>✨ Lorem ipsum {{ categoria[0] }}</h2>
+    <div>
+      {% for producto in categoria[1] %}
+      <article class="tarjeta">
+        <div>
+          <img src="{{ 'img/clinica-estetica.avif' | relative_url }}" alt="Lorem ipsum" loading="lazy" width="400" height="400" title="Dolor sit amet">
+        </div>
+        <div class="flow">
+          <h3>Lorem Ipsum Dolor</h3>
+          <ul>
+            <li><small>✓ Consectetur adipiscing</small></li>
+            <li><small>✓ Sed do eiusmod</small></li>
+            <li><small>✓ Tempor incididunt</small></li>
+          </ul>
+          {% include boton_whatsapp.html %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
