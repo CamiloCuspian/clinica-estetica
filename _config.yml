@@ -1,24 +1,44 @@
+# Configuración básica del sitio
 baseurl: "/clinica-estetica"
 url: "https://camilocuspian.github.io"
-name: ''
-author: 
-instagram: 
-facebook: 
-maps: 
-telefono:
 
+# Información del sitio
+title: "Clínica Estética"
+description: "Lorem ipsum dolor sit amet"
+name: ""
+author: ""
+
+# Redes sociales
+instagram: ""
+facebook: ""
+maps: ""
+telefono: ""
+
+# Configuración de Jekyll
 markdown: kramdown
-
 permalink: :slug
-
 keep_files: [/img]
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Configuración de compresión HTML
 compress_html:
-    clippings: []
-    comments: []
-    endings: []
-    ignore:
-    envs: []
-    blanklines: false
-    profile: false
-    startings: []
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+  envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+# Excluir archivos y carpetas
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
